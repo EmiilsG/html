@@ -1,16 +1,16 @@
 .hero-section {
     min-height: 60vh;
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-                url('https://images.unsplash.com/photo-1592906209472-a36b1f3782ef');
+                url('https://images.unsplash.com/photo-1513622118278-bc041b3c13ed');
     background-size: cover;
     background-position: center;
 }
 
-.attraction-card {
+.card {
     transition: transform 0.3s ease;
 }
 
-.attraction-card:hover {
+.card:hover {
     transform: translateY(-5px);
 }
 
