@@ -1,33 +1,33 @@
 {% extends "base.html" %}
 
-{% block title %}Welcome{% endblock %}
+{% block title %}Sveicināti{% endblock %}
 
 {% block content %}
 <div class="hero-section d-flex align-items-center text-center text-white">
     <div class="container">
-        <h1 class="display-3 fw-bold">Welcome to Ventspils</h1>
-        <p class="lead">Discover Latvia's Most Charming Port City</p>
-        <a href="#about" class="btn btn-outline-light btn-lg mt-3">Explore More</a>
+        <h1 class="display-3 fw-bold">Sveicināti Latvijā</h1>
+        <p class="lead">Zeme, kas vieno Baltijas jūru un bagātu kultūras mantojumu</p>
+        <a href="#par" class="btn btn-outline-light btn-lg mt-3">Uzzināt vairāk</a>
     </div>
 </div>
 
-<section id="about" class="py-5">
+<section id="par" class="py-5">
     <div class="container">
-        <h2 class="text-center mb-4">About Ventspils</h2>
+        <h2 class="text-center mb-4">Par Latviju</h2>
         <div class="row">
             <div class="col-md-6">
-                <p class="lead">Ventspils is a city in northwestern Latvia in the historical Courland region of Latvia, and is the sixth largest city in the country.</p>
-                <p>The city is a major Baltic port and has been an important trading hub since the Hanseatic period. Today, it's known for its clean beaches, family-friendly attractions, and rich cultural heritage.</p>
+                <p class="lead">Latvija ir valsts Ziemeļeiropā, viena no trim Baltijas valstīm, kas atrodas pie Baltijas jūras.</p>
+                <p>Latvija ir bagāta ar savu kultūras mantojumu, dabas daudzveidību un mūsdienīgu pilsētvidi. Valsts teritorija ir 64,589 km², un tajā dzīvo aptuveni 1.9 miljoni iedzīvotāju.</p>
             </div>
             <div class="col-md-6">
                 <div class="card bg-dark">
                     <div class="card-body">
-                        <h5 class="card-title">Quick Facts</h5>
+                        <h5 class="card-title">Galvenie fakti</h5>
                         <ul class="list-unstyled">
-                            <li><i class="fas fa-users me-2"></i> Population: ~40,000</li>
-                            <li><i class="fas fa-map-marker-alt me-2"></i> Location: Northwestern Latvia</li>
-                            <li><i class="fas fa-calendar me-2"></i> Founded: 1290</li>
-                            <li><i class="fas fa-water me-2"></i> Features: Port City, Beaches</li>
+                            <li><i class="fas fa-map-marker-alt me-2"></i> Galvaspilsēta: Rīga</li>
+                            <li><i class="fas fa-users me-2"></i> Iedzīvotāji: ~1.9 miljoni</li>
+                            <li><i class="fas fa-globe-europe me-2"></i> Valoda: Latviešu</li>
+                            <li><i class="fas fa-calendar me-2"></i> Neatkarība: 1918. gada 18. novembris</li>
                         </ul>
                     </div>
                 </div>
@@ -36,68 +36,31 @@
     </div>
 </section>
 
-<section id="history" class="py-5 bg-dark">
+<section id="vesture" class="py-5 bg-dark">
     <div class="container">
-        <h2 class="text-center mb-4">Rich History</h2>
-        <div class="timeline">
-            <div class="row g-4">
-                <div class="col-md-4">
-                    <div class="card h-100">
-                        <div class="card-body">
-                            <h5 class="card-title">Medieval Period</h5>
-                            <p class="card-text">Founded in 1290 by the Livonian Order, Ventspils grew as a important Hanseatic port.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card h-100">
-                        <div class="card-body">
-                            <h5 class="card-title">19th Century</h5>
-                            <p class="card-text">Industrial revolution brought rapid development and expansion of the port.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card h-100">
-                        <div class="card-body">
-                            <h5 class="card-title">Modern Era</h5>
-                            <p class="card-text">Today, Ventspils is a modern city combining historical heritage with contemporary amenities.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section id="attractions" class="py-5">
-    <div class="container">
-        <h2 class="text-center mb-4">Top Attractions</h2>
+        <h2 class="text-center mb-4">Latvijas vēsture</h2>
         <div class="row g-4">
             <div class="col-md-4">
-                <div class="card attraction-card h-100">
-                    <img src="https://images.unsplash.com/photo-1565109698955-9673607ecb54" class="card-img-top gallery-img" alt="Ventspils Castle">
+                <div class="card h-100">
                     <div class="card-body">
-                        <h5 class="card-title">Ventspils Castle</h5>
-                        <p class="card-text">The oldest medieval fortress in Latvia, built by the Livonian Order.</p>
+                        <h5 class="card-title">Senā vēsture</h5>
+                        <p class="card-text">Latvijas teritoriju sākotnēji apdzīvoja baltu ciltis. 12.-13. gadsimtā šeit ieradās vācu krustneši, dibinot Livonijas konfederāciju.</p>
                     </div>
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="card attraction-card h-100">
-                    <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e" class="card-img-top gallery-img" alt="Blue Flag Beach">
+                <div class="card h-100">
                     <div class="card-body">
-                        <h5 class="card-title">Blue Flag Beach</h5>
-                        <p class="card-text">A pristine white sand beach perfect for summer activities.</p>
+                        <h5 class="card-title">Neatkarības laiks</h5>
+                        <p class="card-text">1918. gadā tika pasludināta Latvijas neatkarība. Starpkaru periods bija nozīmīgs valsts attīstībā un kultūras uzplaukumā.</p>
                     </div>
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="card attraction-card h-100">
-                    <img src="https://images.unsplash.com/photo-1583422409516-2895a77efded" class="card-img-top gallery-img" alt="Narrow Gauge Railway">
+                <div class="card h-100">
                     <div class="card-body">
-                        <h5 class="card-title">Narrow Gauge Railway</h5>
-                        <p class="card-text">Historical railway offering scenic rides along the coast.</p>
+                        <h5 class="card-title">Mūsdienu Latvija</h5>
+                        <p class="card-text">Kopš neatkarības atjaunošanas 1991. gadā, Latvija ir kļuvusi par ES un NATO dalībvalsti, attīstot modernu ekonomiku.</p>
                     </div>
                 </div>
             </div>
@@ -105,27 +68,131 @@
     </div>
 </section>
 
-<section id="contact" class="py-5 bg-dark">
+<section id="kultura" class="py-5">
     <div class="container">
-        <h2 class="text-center mb-4">Contact Information</h2>
-        <div class="row justify-content-center">
-            <div class="col-md-8">
-                <div class="card">
+        <h2 class="text-center mb-4">Latvijas kultūra</h2>
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="card h-100">
                     <div class="card-body">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <h5><i class="fas fa-map-marker-alt me-2"></i> Tourist Information</h5>
-                                <p>Dārzu iela 6, Ventspils, LV-3601</p>
-                                <h5><i class="fas fa-phone me-2"></i> Phone</h5>
-                                <p>+371 636 22263</p>
-                            </div>
-                            <div class="col-md-6">
-                                <h5><i class="fas fa-envelope me-2"></i> Email</h5>
-                                <p>tourism@ventspils.lv</p>
-                                <h5><i class="fas fa-clock me-2"></i> Working Hours</h5>
-                                <p>Mon-Fri: 9:00 - 17:00<br>Sat-Sun: 10:00 - 15:00</p>
-                            </div>
-                        </div>
+                        <h5 class="card-title">Dziesmu svētki</h5>
+                        <p class="card-text">UNESCO nemateriālā kultūras mantojuma daļa, kas pulcē tūkstošiem dziedātāju un dejotāju no visas Latvijas.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">Tautas māksla</h5>
+                        <p class="card-text">Bagātais rokdarbu mantojums ietver tautastērpus, jostu aušanu un citas tradicionālās prasmes.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">Mūsdienu māksla</h5>
+                        <p class="card-text">Aktīva laikmetīgās mākslas un mūzikas scēna, kas veido dialogu starp tradīcijām un inovācijām.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="daba" class="py-5 bg-dark">
+    <div class="container">
+        <h2 class="text-center mb-4">Latvijas daba</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">Nacionālie parki</h5>
+                        <p class="card-text">Latvijā ir četri nacionālie parki:</p>
+                        <ul>
+                            <li>Gaujas Nacionālais parks</li>
+                            <li>Ķemeru Nacionālais parks</li>
+                            <li>Slīteres Nacionālais parks</li>
+                            <li>Rāznas Nacionālais parks</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">Dabas daudzveidība</h5>
+                        <p class="card-text">Latvijas teritorijā ir:</p>
+                        <ul>
+                            <li>Vairāk nekā 12,000 upju</li>
+                            <li>Vairāk nekā 3,000 ezeru</li>
+                            <li>Ap 500 km garā jūras robeža</li>
+                            <li>Meži klāj 52% teritorijas</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="pilsetas" class="py-5">
+    <div class="container">
+        <h2 class="text-center mb-4">Lielākās pilsētas</h2>
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">Rīga</h5>
+                        <p class="card-text">Latvijas galvaspilsēta un lielākā Baltijas pilsēta. Slavena ar savu jūgendstila arhitektūru un vecpilsētu.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">Daugavpils</h5>
+                        <p class="card-text">Otrā lielākā Latvijas pilsēta ar unikālu 19. gadsimta cietoksni un daudzveidīgu kultūrvidi.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">Liepāja</h5>
+                        <p class="card-text">Nozīmīga ostas pilsēta ar bagātu muzikālo vēsturi un skaistām pludmalēm.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="tradicijas" class="py-5 bg-dark">
+    <div class="container">
+        <h2 class="text-center mb-4">Latviskās tradīcijas</h2>
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">Līgo svētki</h5>
+                        <p class="card-text">Vasaras saulgriežu svinības ar vainagu pīšanu, ugunskuriem un tradicionālām dziesmām.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">Mārtiņdiena</h5>
+                        <p class="card-text">Rudens ražas svētki ar maskošanos un tradicionāliem ēdieniem.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">Meteņi</h5>
+                        <p class="card-text">Ziemas pavadīšanas un pavasara sagaidīšanas svētki ar īpašām izdarībām un rituāliem.</p>
                     </div>
                 </div>
             </div>
