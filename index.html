@@ -1,0 +1,135 @@
+{% extends "base.html" %}
+
+{% block title %}Welcome{% endblock %}
+
+{% block content %}
+<div class="hero-section d-flex align-items-center text-center text-white">
+    <div class="container">
+        <h1 class="display-3 fw-bold">Welcome to Ventspils</h1>
+        <p class="lead">Discover Latvia's Most Charming Port City</p>
+        <a href="#about" class="btn btn-outline-light btn-lg mt-3">Explore More</a>
+    </div>
+</div>
+
+<section id="about" class="py-5">
+    <div class="container">
+        <h2 class="text-center mb-4">About Ventspils</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <p class="lead">Ventspils is a city in northwestern Latvia in the historical Courland region of Latvia, and is the sixth largest city in the country.</p>
+                <p>The city is a major Baltic port and has been an important trading hub since the Hanseatic period. Today, it's known for its clean beaches, family-friendly attractions, and rich cultural heritage.</p>
+            </div>
+            <div class="col-md-6">
+                <div class="card bg-dark">
+                    <div class="card-body">
+                        <h5 class="card-title">Quick Facts</h5>
+                        <ul class="list-unstyled">
+                            <li><i class="fas fa-users me-2"></i> Population: ~40,000</li>
+                            <li><i class="fas fa-map-marker-alt me-2"></i> Location: Northwestern Latvia</li>
+                            <li><i class="fas fa-calendar me-2"></i> Founded: 1290</li>
+                            <li><i class="fas fa-water me-2"></i> Features: Port City, Beaches</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="history" class="py-5 bg-dark">
+    <div class="container">
+        <h2 class="text-center mb-4">Rich History</h2>
+        <div class="timeline">
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Medieval Period</h5>
+                            <p class="card-text">Founded in 1290 by the Livonian Order, Ventspils grew as a important Hanseatic port.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">19th Century</h5>
+                            <p class="card-text">Industrial revolution brought rapid development and expansion of the port.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Modern Era</h5>
+                            <p class="card-text">Today, Ventspils is a modern city combining historical heritage with contemporary amenities.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="attractions" class="py-5">
+    <div class="container">
+        <h2 class="text-center mb-4">Top Attractions</h2>
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="card attraction-card h-100">
+                    <img src="https://images.unsplash.com/photo-1565109698955-9673607ecb54" class="card-img-top gallery-img" alt="Ventspils Castle">
+                    <div class="card-body">
+                        <h5 class="card-title">Ventspils Castle</h5>
+                        <p class="card-text">The oldest medieval fortress in Latvia, built by the Livonian Order.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card attraction-card h-100">
+                    <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e" class="card-img-top gallery-img" alt="Blue Flag Beach">
+                    <div class="card-body">
+                        <h5 class="card-title">Blue Flag Beach</h5>
+                        <p class="card-text">A pristine white sand beach perfect for summer activities.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card attraction-card h-100">
+                    <img src="https://images.unsplash.com/photo-1583422409516-2895a77efded" class="card-img-top gallery-img" alt="Narrow Gauge Railway">
+                    <div class="card-body">
+                        <h5 class="card-title">Narrow Gauge Railway</h5>
+                        <p class="card-text">Historical railway offering scenic rides along the coast.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="contact" class="py-5 bg-dark">
+    <div class="container">
+        <h2 class="text-center mb-4">Contact Information</h2>
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <h5><i class="fas fa-map-marker-alt me-2"></i> Tourist Information</h5>
+                                <p>Dārzu iela 6, Ventspils, LV-3601</p>
+                                <h5><i class="fas fa-phone me-2"></i> Phone</h5>
+                                <p>+371 636 22263</p>
+                            </div>
+                            <div class="col-md-6">
+                                <h5><i class="fas fa-envelope me-2"></i> Email</h5>
+                                <p>tourism@ventspils.lv</p>
+                                <h5><i class="fas fa-clock me-2"></i> Working Hours</h5>
+                                <p>Mon-Fri: 9:00 - 17:00<br>Sat-Sun: 10:00 - 15:00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}
